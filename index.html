@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>AcessiCheck Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>AcessiCheck Lite</h1>
+        <form onsubmit="event.preventDefault(); btnAnalyze.click()">
+            <div class="input-row">
+                <input type="text" id="urlInput" placeholder="https://exemplo.com">
+                <button type="submit" id="btnAnalyze">Analisar</button>
+            </div>
+        </form>
+
+        <div id="loading" class="hidden">Analisando...</div>
+
+        <section id="results" class="hidden">
+            <div id="summary"></div>
+            <div id="issueList"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
