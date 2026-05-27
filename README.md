@@ -20,7 +20,7 @@ Se todas as imagens estiverem corretas, exibe uma mensagem de sucesso ✅.
 
 ## Como usar
 
-1. Click no link:  ou Abra o arquivo `index.html` no navegador
+1. [Click aqui](https://mathfrlima.github.io/AcessiCheck-lite/) ou Abra o arquivo `index.html` no navegador
 2. Digite a URL da página que deseja analisar
 3. Clique em **Analisar** ou pressione **Enter**
 4. Veja o relatório com os problemas encontrados
